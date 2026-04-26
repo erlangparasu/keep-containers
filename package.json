@@ -1,0 +1,26 @@
+{
+  "name": "keep-containers",
+  "version": "1.0.0",
+  "description": "A shell script to keep only N most recent containers by name prefix.",
+  "main": "keep-containers.sh",
+  "bin": {
+    "keep-containers": "keep-containers.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlangparasu/keep-containers.git"
+  },
+  "keywords": [
+    "docker",
+    "podman",
+    "containers",
+    "cleanup",
+    "retention"
+  ],
+  "author": "Erlang Parasu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erlangparasu/keep-containers/issues"
+  },
+  "homepage": "https://github.com/erlangparasu/keep-containers#readme"
+}

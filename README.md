@@ -32,6 +32,11 @@ A simple, robust shell script to manage container lifecycle by keeping only a sp
 
 ### Examples
 
+**Run using npx (without installation):**
+```bash
+npx keep-containers -p web-app -r docker -k 3
+```
+
 **Keep the 3 most recent Docker containers starting with "web-app":**
 ```bash
 ./keep-containers.sh -p web-app -r docker -k 3
