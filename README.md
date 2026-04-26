@@ -17,8 +17,16 @@ A simple, robust shell script to manage container lifecycle by keeping only a sp
 
 ## Usage
 
+### Run via npx (Recommended)
+
 ```bash
-./keep-containers.sh -p <prefix> -r <runtime> [-k <keep_count>] [-h]
+npx keep-containers -p <prefix> -r <runtime> [-k <keep_count>]
+```
+
+### Run via Local Script
+
+```bash
+./keep-containers.sh -p <prefix> -r <runtime> [-k <keep_count>]
 ```
 
 ### Options
