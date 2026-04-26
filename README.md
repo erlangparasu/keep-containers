@@ -20,7 +20,7 @@ A simple, robust shell script to manage container lifecycle by keeping only a sp
 ### Run via npx (Recommended)
 
 ```bash
-npx keep-containers -p <prefix> -r <runtime> [-k <keep_count>]
+npx github:erlangparasu/keep-containers -p <prefix> -r <runtime> [-k <keep_count>]
 ```
 
 ### Run via Local Script
@@ -40,9 +40,9 @@ npx keep-containers -p <prefix> -r <runtime> [-k <keep_count>]
 
 ### Examples
 
-**Run using npx (without installation):**
+**Run using npx (from GitHub):**
 ```bash
-npx keep-containers -p web-app -r docker -k 3
+npx github:erlangparasu/keep-containers -p web-app -r docker -k 3
 ```
 
 **Keep the 3 most recent Docker containers starting with "web-app":**
