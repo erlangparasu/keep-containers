@@ -61,4 +61,4 @@ npx keep-containers -p web-app -r docker -k 3
 
 ## License
 
-This project is licensed under the terms of the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the terms of the Apache License 2.0. See [LICENSE](LICENSE) for details.
